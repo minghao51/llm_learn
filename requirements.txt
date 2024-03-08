@@ -10,6 +10,7 @@ jq
 markdown
 langchain_google_genai
 chromadb
+pysqlite3
 #langchain_openai
 #langchain-community
 #sqlite3
