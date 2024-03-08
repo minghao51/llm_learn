@@ -2,14 +2,14 @@
 # LLM Learning
 
 # Agenda
-1. Sharing about fine-tuning/quantization of LLM [15 mins]
+1. Parameter efficient Finetuning with LORA [15 mins]
 
-2. Overview of LLM (review) [15mins]
+2. Overview of LLM (review) [10mins]
     - RAG
 3. Notebook Scripts walkthough [15 mins]
     a. hands on - RAG prompt [20 mins]
 
-4. Steamlite Scripts walkthrough [10 mins]
+4. Streamlit Scripts walkthrough [10 mins]
     b. hands on - adding a select components [20 mins]
 
 5. Hackathon (next week) [20mins]
@@ -76,15 +76,14 @@ LLMs can reason about wide-ranging topics, but their knowledge is limited to the
 ![Alt text](image/image.png)
 
 
-# 2. Overview of LLM (review)
-
 # 3. Notebook Scripts walkthough [15 mins]
-    a. hands on - RAG prompt [20 mins]
+    hands on - RAG prompt [20 mins]
 
-# 4. Steamlite Scripts walkthrough [10 mins]
-    b. hands on - adding a select components [20 mins]
+# 4. Streamlit Scripts walkthrough [10 mins]
+    hands on - adding a select components [20 mins]
 
 # 5. Hackathon (next week) [20mins]
+    **Via Microsoft Team white board**
     Come up with any idea that utilize LLM to enhance day 2 day insurance work
     - Could be claims, underwritting
     - Or generation of marketing message of special context?
