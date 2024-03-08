@@ -14,6 +14,8 @@ with st.sidebar:
 st.title("💬 Chatbot")
 st.caption("🚀 A streamlit chatbot powered by Groq LLM")
 
+_temperature = st.slider('temperature', min_value=0.0, max_value=1.0, value=0.1, step=0.1)
+
 ## Actual ChatBot
 if "messages" not in st.session_state:
     st.session_state["messages"] = [
@@ -29,7 +31,7 @@ if prompt := st.chat_input():
         api_key=os.environ.get("GROQ"),
     )
     
-    temperature_ = st.slider(label, min_value=0, max_value=1, value=0.1, step=0.1)
+    
 
     st.session_state.messages.append({"role": "user", "content": prompt})
     st.chat_message("user").write(prompt)
@@ -39,7 +41,7 @@ if prompt := st.chat_input():
         model="mixtral-8x7b-32768", 
         messages=st.session_state.messages,
         # Optional
-        temperature=temperature_,
+        temperature=_temperature,
     )
     
     msg = response.choices[0].message.content
