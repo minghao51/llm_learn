@@ -8,10 +8,9 @@
     - RAG
 
 3. Notebook Scripts walkthough [15 mins]
-    a. hands on - RAG prompt [20 mins]
 
 4. Streamlit Scripts walkthrough [10 mins]
-    b. hands on - adding a select components [20 mins]
+   - hands on - adding a select components [20 mins]
 
 5. Hackathon (next week) [20mins]
     - team forming
