@@ -8,9 +8,8 @@ chromadb
 unstructured
 jq
 markdown
-langchain_openai
 langchain_google_genai
 chromadb
-langchain-google-genai
-langchain-community
-sqlite3
+#langchain_openai
+#langchain-community
+#sqlite3

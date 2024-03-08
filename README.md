@@ -78,6 +78,27 @@ LLMs can reason about wide-ranging topics, but their knowledge is limited to the
 
 # 2. Overview of LLM (review)
 
+# 3. Notebook Scripts walkthough [15 mins]
+    a. hands on - RAG prompt [20 mins]
+
+# 4. Steamlite Scripts walkthrough [10 mins]
+    b. hands on - adding a select components [20 mins]
+
+# 5. Hackathon (next week) [20mins]
+    Come up with any idea that utilize LLM to enhance day 2 day insurance work
+    - Could be claims, underwritting
+    - Or generation of marketing message of special context?
+    - Or maybe just explanation/QnA on insurance terms/code
+
+    Team forming
+        max of 2 person per team
+
+    #
+    topics/discussion
+
+
+
+
 
 References
 1. https://wow.groq.com/
