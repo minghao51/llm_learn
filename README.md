@@ -6,6 +6,7 @@
 
 2. Overview of LLM (review) [10mins]
     - RAG
+
 3. Notebook Scripts walkthough [15 mins]
     a. hands on - RAG prompt [20 mins]
 
@@ -68,7 +69,7 @@ LLMs can reason about wide-ranging topics, but their knowledge is limited to the
 
 
 ## Componets
-![Alt text](image.png)
+![Alt text](image/image_flow.png)
 - **Retrieve**: Given a user input, relevant splits are retrieved from storage using a Retriever.
 - **Generate**: A ChatModel / LLM produces an answer using a prompt that includes the question and the retrieved data
 
