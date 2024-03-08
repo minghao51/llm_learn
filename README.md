@@ -76,11 +76,13 @@ LLMs can reason about wide-ranging topics, but their knowledge is limited to the
 ![Alt text](image/image.png)
 
 
-# 3. Notebook Scripts walkthough [15 mins]
-    hands on - RAG prompt [20 mins]
+# 3. Notebook Scripts walkthough [10 mins]
+    - walkthourgh
+    - challange - complete the RAG-calling part
 
 # 4. Streamlit Scripts walkthrough [10 mins]
-    hands on - adding a select components [20 mins]
+    - walkthrough
+    - hands on - adding a select components [20 mins]
 
 # 5. Hackathon (next week) [20mins]
     **Via Microsoft Team white board**
