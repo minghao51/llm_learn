@@ -1,5 +1,26 @@
 
-# LLM 
+# LLM Learning
+
+# Agenda
+1. Sharing about fine-tuning/quantization of LLM [15 mins]
+
+2. Overview of LLM (review) [15mins]
+    - RAG
+3. Notebook Scripts walkthough [15 mins]
+    a. hands on - RAG prompt [20 mins]
+
+4. Steamlite Scripts walkthrough [10 mins]
+    b. hands on - adding a select components [20 mins]
+
+5. Hackathon (next week) [20mins]
+    - team forming
+    - topics/discussion
+
+
+
+# 2. Overview of LLM (review)
+
+
 
 ![Alt text](image/google_gemini_answer.png)
 
@@ -55,6 +76,7 @@ LLMs can reason about wide-ranging topics, but their knowledge is limited to the
 ![Alt text](image/image.png)
 
 
+# 2. Overview of LLM (review)
 
 
 References
