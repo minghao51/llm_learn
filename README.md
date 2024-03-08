@@ -84,7 +84,7 @@ LLMs can reason about wide-ranging topics, but their knowledge is limited to the
     - walkthrough
     - hands on - adding a select components [20 mins]
 
-# 5. Hackathon (next week) [20mins]
+# 5. Hackathon (next week) [20 mins]
     **Via Microsoft Team white board**
     Come up with any idea that utilize LLM to enhance day 2 day insurance work
     - Could be claims, underwritting
