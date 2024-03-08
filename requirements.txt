@@ -4,3 +4,13 @@ groq
 streamlit
 langchain
 langchain-groq
+chromadb
+unstructured
+jq
+markdown
+langchain_openai
+langchain_google_genai
+chromadb
+langchain-google-genai
+langchain-community
+sqlite3

@@ -4,8 +4,6 @@ import os
 
 #### Side Bar
 with st.sidebar:
-    # openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
-    # "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
     "[View the source code](https://github.com/streamlit/llm-examples/blob/main/Chatbot.py)"
     "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
 
@@ -13,6 +11,17 @@ with st.sidebar:
 #### Main
 st.title("💬 Chatbot")
 st.caption("🚀 A streamlit chatbot powered by Groq LLM")
+
+from langchain_community.callbacks.streamlit import (
+    StreamlitCallbackHandler,
+)
+import streamlit as st
+
+st_callback = StreamlitCallbackHandler(st.container())
+
+_temperature = st.slider('temperature', min_value=0.0, max_value=1.0, value=0.1, step=0.1)
+
+
 
 ## Actual ChatBot
 if "messages" not in st.session_state:
@@ -28,6 +37,8 @@ if prompt := st.chat_input():
     client = Groq(
         api_key=os.environ.get("GROQ"),
     )
+    
+    
 
     st.session_state.messages.append({"role": "user", "content": prompt})
     st.chat_message("user").write(prompt)
@@ -37,7 +48,7 @@ if prompt := st.chat_input():
         model="mixtral-8x7b-32768", 
         messages=st.session_state.messages,
         # Optional
-        temperature=0.5,
+        temperature=_temperature,
     )
     
     msg = response.choices[0].message.content

@@ -10,9 +10,9 @@
 		"vscode": {
 			"extensions": [
 				"ms-toolsai.jupyter",
-				"ms-python.vscode-pylance",
 				"ms-python.python",
 				"ms-python.debugpy",
+				"ms-python.vscode-pylance",
 				"ms-toolsai.jupyter-renderers",
 				"ms-toolsai.jupyter-keymap",
 				"ms-python.black-formatter"
